@@ -2,7 +2,7 @@
 
 let discos = [];
 
-    fetch('discos.json')
+    fetch('./discos.json')
         .then(res => res.json())
         .then(data => {
             discos = data;
